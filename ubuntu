@@ -7,7 +7,7 @@ echo "###################################"
 # Install PPTP daemon service
 apt-get -y install pptpd
 
-# openport with ufw
+# Openport with ufw
 ufw allow 1723
 ufw allow 47
 
